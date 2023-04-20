@@ -21,8 +21,8 @@ header{
 
 .page{
     background-color: white;
-    width: 1500px;
-    height: 750px;
+    width: 1488px;
+    height: 747px;
     margin: 89px auto;
 
 }
@@ -37,19 +37,30 @@ h1{
     color: rgb(255, 66, 176);
 }
 
+p, span{
+   font-weight: lighter;
+}
+
 p{
-   font-size: 20px;
+    font-size: 1.1rem;
+}
+
+a{
+    color: rgb(35, 147, 252);
+    text-decoration: none;
+}
+
+.column{
+    float: left;
+    margin: 10px 10px;
 }
 
 .card{
-    text-align: left;
+    display: inline-block;
     background-color: black;
     color: white;
-    padding: 10px;
-}
-
-.card-info{
-    padding: 5px;
+    width: 360px;
+    text-align: left;
 }
 
 img{
@@ -57,9 +68,12 @@ img{
     float: left;
 }
 
-.column-row{
-    width: calc(100 / 3);
-    padding: 80px;
+.card-info{
+    padding: 20px 120px;
+}
+
+.column-space{
+    margin: 80px 30px;
 }
 /* utility */
 

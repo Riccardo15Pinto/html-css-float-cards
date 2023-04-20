@@ -42,7 +42,6 @@ p{
 }
 
 .card{
-    width: 350px;
     text-align: left;
     background-color: black;
     color: white;
@@ -60,7 +59,7 @@ img{
 
 .column-row{
     width: calc(100 / 3);
-    margin: 60px;
+    padding: 80px;
 }
 /* utility */
 
@@ -70,6 +69,3 @@ img{
     clear: both;
 }
 
-.column{
-    float: right;
-}

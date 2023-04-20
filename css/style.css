@@ -10,6 +10,13 @@
 
 body{
     background-color: black;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+}
+
+header{
+    margin: 60px;
+    display: inline-block;
 }
 
 .page{
@@ -25,10 +32,44 @@ body{
     margin: 0 auto;
 }
 
+h1{
+    font-size: 2.5rem;
+    color: rgb(255, 66, 176);
+}
+
+p{
+   font-size: 20px;
+}
+
+.card{
+    width: 350px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.card-info{
+    padding: 5px;
+}
+
+img{
+    height: 100px;
+    float: left;
+}
+
+.column-row{
+    width: calc(100 / 3);
+    margin: 60px;
+}
 /* utility */
 
 .fix::after{
     content: " ";
     display:block;
     clear: both;
+}
+
+.column{
+    float: right;
 }

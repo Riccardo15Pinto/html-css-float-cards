@@ -38,7 +38,7 @@ a{
 }
 
 img{
-    height: 100px;
+    height: 100%;
     float: left;
 }
 
@@ -65,20 +65,19 @@ img{
 }
 
 .card{
-    display: inline-block;
     background-color: black;
     color: white;
-    width: 360px;
-    text-align: left;
+    height: 100px;
 }
 
 .card-info{
-    padding: 13px 0;
-    margin-left: 120px;
+    padding: 10px;
+    line-height: calc( 80px / 3 );
+    text-align: left;
 }
 
 .column-space{
-    margin: 80px 30px;
+   margin: 40px;;
 }
 
 /* utility */
